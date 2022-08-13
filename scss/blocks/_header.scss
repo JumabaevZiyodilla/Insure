@@ -13,7 +13,7 @@
     display: none;
     width: 32px;
     height: 32px;
-    background-image: url("../../images/hamburg.svg");
+    background-image: url("../images/hamburg.svg");
     background-color: none  ;
     border: none;
 }
@@ -62,7 +62,7 @@
         display: block;
     }
     .site-header--open .header-wrap__btn{
-        background-image: url("../../images/x.svg");
+        background-image: url("../images/x.svg");
         transition: all 0.3s ease;
     }
     .header-wrap__btn{
@@ -79,7 +79,7 @@
         width: 100%;
         padding: 40px 24px 299px 24px;
         background-color: var(--title-color);
-        background-image: url("../../images/mobile-line1.svg");
+        background-image: url("../images/mobile-line1.svg");
         background-size: contain;
         background-position: calc(50% + 0px) calc(50% + 205px);
         background-repeat: no-repeat;

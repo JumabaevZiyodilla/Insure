@@ -429,7 +429,7 @@ a {
   display: none;
   width: 32px;
   height: 32px;
-  background-image: url("../../images/hamburg.svg");
+  background-image: url("../images/hamburg.svg");
   background-color: none;
   border: none;
 }
@@ -526,7 +526,7 @@ a {
     display: block;
   }
   .site-header--open .header-wrap__btn {
-    background-image: url("../../images/x.svg");
+    background-image: url("../images/x.svg");
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
@@ -545,7 +545,7 @@ a {
     width: 100%;
     padding: 40px 24px 299px 24px;
     background-color: var(--title-color);
-    background-image: url("../../images/mobile-line1.svg");
+    background-image: url("../images/mobile-line1.svg");
     background-size: contain;
     background-position: calc(50% + 0px) calc(50% + 205px);
     background-repeat: no-repeat;
@@ -595,7 +595,7 @@ a {
 .humanizing {
   padding: 105px 0px 127px 0px;
   background-color: #2D2641;
-  background-image: url("../../images/line1.svg"), url("../../images/line2.svg");
+  background-image: url("../images/line1.svg"), url("../images/line2.svg");
   background-repeat: no-repeat;
   background-position: calc(50% + 500px) calc(50% - 80px), calc(50% - 620px) calc(50% + 430px);
 }
@@ -781,15 +781,15 @@ a {
   top: -118px;
   width: 86px;
   height: 86px;
-  background-image: url("../../images/stormicon.svg");
+  background-image: url("../images/stormicon.svg");
   content: "";
 }
 .different-list__item:nth-child(2)::before {
-  background-image: url("../../images/icondollar.svg");
+  background-image: url("../images/icondollar.svg");
   content: "";
 }
 .different-list__item:nth-child(3)::before {
-  background-image: url("../../images/peopleicon.svg");
+  background-image: url("../images/peopleicon.svg");
   content: "";
 }
 .different-list__item:not(:last-child) {
@@ -866,7 +866,7 @@ a {
           justify-content: space-between;
   padding: 69px 80px;
   background-color: #2D2641;
-  background-image: url("../../images/line3.svg");
+  background-image: url("../images/line3.svg");
   background-repeat: no-repeat;
   background-position: right 0px;
 }
@@ -941,7 +941,7 @@ a {
 /* FOOTER START */
 .site-footer {
   padding: 67px 0px;
-  background-image: url("../../images/footer-line.svg");
+  background-image: url("../images/footer-line.svg");
   background-size: 697px 649px;
   background-position: calc(50% - 515px) calc(50% - 297px);
   background-repeat: no-repeat;

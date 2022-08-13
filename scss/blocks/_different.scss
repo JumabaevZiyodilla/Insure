@@ -36,17 +36,17 @@
         top: -118px;
         width: 86px;
         height: 86px;
-        background-image: url("../../images/stormicon.svg");
+        background-image: url("../images/stormicon.svg");
         content: "";
     }
 
     &:nth-child(2)::before {
-        background-image: url("../../images/icondollar.svg");
+        background-image: url("../images/icondollar.svg");
         content: "";
     }
 
     &:nth-child(3)::before {
-        background-image: url("../../images/peopleicon.svg");
+        background-image: url("../images/peopleicon.svg");
         content: "";
     }
 
