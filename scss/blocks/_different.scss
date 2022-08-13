@@ -1,0 +1,120 @@
+.different {
+    padding: 305px 0px 158px 0px;
+}
+
+.different-wrap__title {
+    margin: 0px 0px 214px 0px;
+    font-family: "DM Serif Display";
+    font-size: 72px;
+    line-height: 64px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #2C2830;
+
+    &::before {
+        display: block;
+        margin-bottom: 63px;
+        background-color: #C396C6;
+        border-top: 1px solid transparent;
+        width: 150px;
+        content: "";
+    }
+}
+
+.different-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.different-list__item {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+
+    &::before {
+        position: absolute;
+        top: -118px;
+        width: 86px;
+        height: 86px;
+        background-image: url("../../images/stormicon.svg");
+        content: "";
+    }
+
+    &:nth-child(2)::before {
+        background-image: url("../../images/icondollar.svg");
+        content: "";
+    }
+
+    &:nth-child(3)::before {
+        background-image: url("../../images/peopleicon.svg");
+        content: "";
+    }
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.different-list__title {
+    margin: 0px 0px 16px 0px;
+    font-family: 'DM Serif Display';
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: -0.388889px;
+    color: #2C2830;
+
+}
+
+.different-list__text {
+    margin: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #837D88;
+}
+
+@media only screen and (max-width: 800px) {
+    .different-wrap{
+        width: 100%;
+        max-width: 327px;
+        margin: 0 auto;
+    }
+    .different-wrap__title {
+        margin-bottom: 198px;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -0.666667px;
+
+        &::before {
+            width: 150px;
+            margin: 0 auto 40px auto;
+        }
+    }
+
+    .different-list {
+        display: block;
+    }
+
+    .different-list__item {
+        &::before {
+            right: calc(50% + -43px);
+        }
+
+        &:not(:last-child) {
+            margin: 0px auto 174px auto;
+        }
+    }
+
+    .different-list__title {
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.388889px;
+    }
+
+    .different-list__text {
+        text-align: center;
+    }
+}

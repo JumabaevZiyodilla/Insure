@@ -1,0 +1,61 @@
+.find {
+    padding-bottom: 150px;
+}
+.find-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 69px 80px;
+    background-color: #2D2641;
+    background-image: url("../../images/line3.svg");
+    background-repeat: no-repeat;
+    background-position: right 0px;
+}
+.find-wrap__title-box{
+    width: 100%;
+    max-width: 475px;
+}
+.find-wrap__title {
+    margin: 0px;
+    font-family: 'DM Serif Display';
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 400;
+letter-spacing: -0.777778px;
+color: #FFFFFF;
+}
+.find-wrap__link {
+    @include view;
+    color: #fff;
+
+    &:hover {
+        color: var(--title-color);
+        background-color: #fff;
+        transition: all 0.3s ease;
+    }
+}
+@media only screen and (max-width: 870px){
+    .find-wrap{
+        display: block;
+        width: 100%;
+        padding: 72px 24px;
+        background-size: 320px 350px;
+        background-position: calc(50% + 150px);
+    }
+    .find-wrap__title-box{
+        max-width: 279px;
+        margin: 0 auto;
+    }
+    .find-wrap__title{
+        margin-bottom: 40px;
+        font-size: 40px;
+line-height: 40px;
+text-align: center;
+letter-spacing: -0.555556px;
+    }
+    .find-wrap__tiny{
+        display: block;
+        width: 173px;
+        margin: 0 auto;
+    }
+}
